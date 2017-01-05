@@ -39,4 +39,4 @@ $(document).ready(function () {
         $('#btn-aggiungi').show();
         $('#btn-torna').hide();
     })
-})
+});

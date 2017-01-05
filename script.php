@@ -7,9 +7,6 @@ if($link === false){
     die("ERRORE: Impossibile connettersi " . mysqli_connect_error());
 }
 
-//var_dump($_SERVER);die;
-//var_dump($_POST);die;
-
 // Escape x sql injection
 $articolo = mysqli_real_escape_string($link, $_POST['art']);
 //var_dump($articolo);die;
