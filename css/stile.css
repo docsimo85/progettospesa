@@ -1,0 +1,27 @@
+.header {
+    height: 100px;
+    text-align: center;
+    border-bottom: solid;
+}
+
+.articolo {
+    background-color: #b2b2b2;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-bottom: solid;
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.form-group{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pulsante {
+    text-align: center;
+}
